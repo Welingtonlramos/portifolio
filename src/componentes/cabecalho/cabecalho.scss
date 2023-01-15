@@ -1,0 +1,28 @@
+header {
+    align-items: center;
+    display: flex;
+    font-family: "Nexa";
+    justify-content: space-between;
+    margin: 1rem;
+    text-transform: uppercase;
+    div {
+        align-items: center;
+        display: flex;
+        img {
+            margin-right: .5rem;
+            width: 3rem;
+        }
+    }
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin: 0 2rem;
+                &:hover {
+                    border-bottom: 2px solid #ffffff;
+                }
+            }
+        }
+    }
+}

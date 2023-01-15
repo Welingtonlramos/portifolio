@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Laços Encanto",
+        "descricao": "Com foco em vendas de laços e acessórios para moda infantil",
+        "site": "https://laco-encanto-6l6uuyz9h-welingtonlramos.vercel.app/",
+        "id": "1",
+        "imagem": "/assets/imagens/lacosEncanto.png",
+        "alternativo": "Laços Encanto"
+    },
+    {
+        "nome": "Em Breve",
+        "descricao": "Logo mais um novo projeto que estou trabalhando",
+        "site": "/",
+        "id": "2",
+        "imagem": "/assets/imagens/emBreve.png",
+        "alternativo": "Um espaço para um novo trabalho"
+    },
+    {
+        "nome": "Em Breve",
+        "descricao": "Logo mais um novo projeto que estou trabalhando",
+        "site": "/",
+        "id": "3",
+        "imagem": "/assets/imagens/emBreve.png",
+        "alternativo": "Um espaço para um novo trabalho"
+    }
+]

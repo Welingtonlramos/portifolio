@@ -1,0 +1,53 @@
+.lista-suspensa {
+    height: 100vh;
+    margin: 0 6rem;
+    .lista {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 5rem;
+        .lista__itens {
+            font-family: "Noto";
+            width: calc(33% - 6rem);
+            figure {
+                display: grid;
+                grid-template: "stack";
+                & > * {
+                    grid-area: stack;
+                }
+                &:hover > figcaption {
+                    opacity: 1;
+                }
+                img {
+                    border-radius: 15px;
+                    object-fit: contain;
+                    max-height: 170px;
+                    height: 100%;
+                    width: 100%;
+                }
+                figcaption {
+                    align-items: center;
+                    background-color: #3a3a3a;
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    opacity: 0;
+                    text-align: center;
+                    transition: opacity 200ms;
+                    p {
+                        font-size: 20px;
+                        margin-bottom: 1rem;
+                    }
+                    a {
+                        border: 1px solid #ffffff;
+                        border-radius: 15px;
+                        padding: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}

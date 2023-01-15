@@ -1,0 +1,51 @@
+@import-normalize;
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #3a3a3a;
+}
+
+@font-face {
+    font-family: "Caviar";
+    src: url("../componentes/assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url("../componentes/assets/fonts/Champagne&Limousines.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fragmentcore";
+    src: url("../componentes/assets/fonts/Fragmentcore.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../componentes/assets/fonts/Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa";
+    src: url("../componentes/assets/fonts/NexaText-Trial.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoBold";
+    src: url("../componentes/assets/fonts/NotoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("../componentes/assets/fonts/NotoSans-Thin.ttf") format("truetype");
+}
+

@@ -1,0 +1,21 @@
+.introducao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    margin: 2rem 0;
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: .5rem;
+    }
+    p {
+        font-size: 20px;
+        a {
+            color: #6f5c91;;
+            &:hover {
+                border-bottom: 2px solid #6f5c91;
+            }
+        }
+    }
+}

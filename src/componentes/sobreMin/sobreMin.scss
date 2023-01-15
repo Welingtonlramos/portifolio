@@ -1,0 +1,50 @@
+.sobreMin {
+    display: flex;
+    background-size: 300px;
+    height: calc(100vh - 3.5rem);
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: .5rem;
+        li {
+            margin: 1rem 0;
+            a {
+                img {
+                    width: 1.5rem;
+                    &:hover {
+                        width: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    .apresentacao {
+        display: flex;
+        justify-content: end;
+        width: calc(100vw - 1rem);
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 4rem 5rem;
+            h1 {
+                font-family: "NotoBold";
+                font-size: 100px;
+                text-transform: uppercase;
+            }
+            h2 {
+                color: #8F8F8F;
+                font-family: "Montserrat";
+                font-size: 40px;
+                text-align: justify;
+                text-transform: uppercase;
+            }
+            p {
+                color: #8F8F8F;
+                font-family: "Noto";
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
